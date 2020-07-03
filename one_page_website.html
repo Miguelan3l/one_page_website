@@ -3,9 +3,10 @@
 <title>pikachu</title>
 <LLERY charset="utf-8">
 <body>
+    <link rel="stylesheet" href=.\css\one_page_website.css>
         <!--NAV-->
 		<div>
-			<div>
+			<div class="nav">
 				<ul>
                     <a href="#home"id="link"><li>HOME</li></a>
                     <a href="#picture"><li>Picture<li></a>
@@ -17,7 +18,7 @@
         <!--END NAV -->
         
         <!--HOME -->
-		<div id="home">
+		<div id="home" class="font" >
 			<div>
 				<div>
                     <span><u>Pikachu</u></span>
@@ -29,7 +30,7 @@
         
         <!-- Picture of pikachu-->
 		<section>
-			<div id="picture">
+			<div id="picture" class="font" >
 				<h1><span style="color:yellow ;">Pikachu!</span></h1>
 				<div>
 					
@@ -44,35 +45,36 @@
                     
         <!--Video of pickachu-->     
         <section>
-            <h2><b><u>Pickachu Fighting!</b></u></h2>
+            <div id="video" class="font">
+                <h2><b><u>Pickachu Fighting!</b></u></h2>
                 <p>Here is a video of pickachu in a battle agiast another pokemon!</p>
-            <div id="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/nKodAXaLll0" title="picture"></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/nKodAXaLll0" title="picture"></iframe>
             </div>
         </section> 
         <!--END OF VIDEO-->    
         
         <!--contact-->
         <section>
-            <div id="contact">  
-                <h2>For more information on pickachu.please submit you information.</h2>
+            <div id="contact" class="font">  
+                <h2>For more information on pickachu, Please submit you information.</h2>
             <form action="" method="post">
                 <input class="rsvp" type="text" value="First Name">
                 <input class="rsvp" type="text" value="Last Name">
                 <input class="rsvp" type="text" value="Email Address">
                     <div class="form-spacer">
-                    <label class="terms">Terms and Conditions</label> 
+                    <label>Terms and Conditions</label> 
+                    </div>
                 </div> 
-                <div> 
+                <div class="submit" > 
                     <input type="submit" value="submit">
                 </div>
             </form>
         </section>
+        <!--End of contact-->
 
-
-        <!--footer-->
+         <!--footer-->
         <h1>Creater of website</h1>
     <footer>
         <p>Author:miguel<br>
     </footer>
-
+        <!--END footer-->
